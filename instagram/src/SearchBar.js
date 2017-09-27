@@ -38,11 +38,6 @@ export default class SearchBar extends React.Component {
         <div className="container">
           <input className="search nav-center" placeholder="Search"/>
         </div>
-        <Nav pullRight>
-          <div className="container-right ">
-            <Search className="nav-icon"/>
-          </div>
-        </Nav>
       </Navbar>
     );
   }
